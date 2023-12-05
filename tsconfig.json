@@ -1,0 +1,11 @@
+{  "compilerOptions": {
+    "target": "es6", // or a newer ES version that Node.js supports
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*", "src/*"],
+  "exclude": ["node_modules", "dist"]
+}
