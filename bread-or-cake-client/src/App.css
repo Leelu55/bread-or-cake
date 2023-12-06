@@ -1,0 +1,43 @@
+/* App.css */
+
+/* Styles for Tabs */
+.MuiTabs-root {
+  background-color: #fff;
+  width: 100%; /* Set tabs to take 100% of available width */
+}
+
+/* Styles for Tab labels */
+.MuiTab-root {
+  min-width: 0;
+  width: 33.33%; /* Divide the width equally among tabs */
+  text-align: center; /* Center the tab label text */
+}
+ 
+/* Styles for TextField and File Input */
+.form-input {
+  display: none;
+}
+
+.form-input.active {
+  display: block;
+  background-color: #fff;
+}
+
+/* Styles for Button */
+.form-button {
+  margin-top: 16px;
+}
+
+.file-input {
+  width: 100%;
+  padding: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: white;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+  &:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  } 
+}
